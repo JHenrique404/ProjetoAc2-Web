@@ -6,10 +6,10 @@ body {
 body {
   display: flex;
   /* align-items: center; */
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   /* background-color: #282F37; */
-  background-image: url('http://marcialocacoescdn.azureedge.net/marcialocacoes/c5598884-2e23-4e3d-833b-bb877492c57f.jpg');
+  background: url(../img/NewCanvas1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -17,7 +17,7 @@ body {
 
 .form-signin {
   width: 100%;
-  max-width: 330px;
+  max-width: 430px;
   padding: 15px;
   margin: auto;
   background: white;
@@ -32,14 +32,34 @@ body {
   z-index: 2;
 }
 
-.form-signin input[type="email"] {
+.form-signin input {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-.form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+.btnCadastrar {
+  margin-top: 35px;
+}
+
+.dadosUsuario {
+  text-align: left;
+}
+
+.dadosPessoais {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.divisor {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.form-control-file {
+  padding-top: 10px;
+}
+
+.navbar {
+  background: white;
 }
